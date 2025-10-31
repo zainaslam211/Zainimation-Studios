@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zain Aslam Animation Portfolio - 2D Animation for Kids, Motion Graphics, and More.">
+  <title>Zain Aslam - Animator & 2D Artist</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+ <nav>
+  <div class="logo">Zainimation Studios</div>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <!-- Home Section with Video Background -->
+  <section id="home" class="home">
+    <div class="video-background">
+      <!-- <video autoplay muted loop>
+        <source src="/Users/Barqsol/Documents/All Animations With Assets/Kids Songs/Space Adventure Song/Chours.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video> -->
+      <video autoplay muted loop>
+  <source src="/Users/Barqsol/Documents/All Animations With Assets/Kids Songs/Space Adventure Song/Chours.mp44" type="video/mp4" media="(max-width: 768px)">
+  <source src="/Users/Barqsol/Documents/All Animations With Assets/Kids Songs/Space Adventure Song/Chours.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+    </div>
+    <div class="home-content">
+      <h1>Hi, I'm Zain Aslam</h1>
+      <p>2D Animator and Motion Graphics Artist</p>
+      <p>Creating fun and engaging animation for kids and brands!</p>
+    </div>
+  </section>
+
+<section id="portfolio">
+  <h2>My Portfolio</h2>
+  <p>Here are some of my recent animation projects.</p>
+
+  <div class="portfolio">
+    <!-- Video 1 -->
+    <div class="project">
+    <iframe 
+  width="100%" 
+  height="315" 
+  src="https://www.youtube.com/embed/Snhg6XlJvTU" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+
+        <h3>Project Title 1</h3>
+      <p>Short description of your animation.</p>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="project">
+      <iframe 
+        width="100%" 
+        height="200" 
+        src="https://www.youtube.com/embed/VIDEO_ID_2" 
+        title="Animation Project 2"
+        frameborder="0" 
+        allowfullscreen>
+      </iframe>
+      <h3>Project Title 2</h3>
+      <p>Short description of your animation.</p>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="project">
+      <iframe 
+        width="100%" 
+        height="200" 
+        src="https://www.youtube.com/embed/VIDEO_ID_3" 
+        title="Animation Project 3"
+        frameborder="0" 
+        allowfullscreen>
+      </iframe>
+      <h3>Project Title 3</h3>
+      <p>Short description of your animation.</p>
+    </div>
+
+    <!-- Video 4 -->
+    <div class="project">
+      <iframe 
+        width="100%" 
+        height="200" 
+        src="https://www.youtube.com/embed/VIDEO_ID_4" 
+        title="Animation Project 4"
+        frameborder="0" 
+        allowfullscreen>
+      </iframe>
+      <h3>Project Title 4</h3>
+      <p>Short description of your animation.</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I'm a passionate 2D animator with over 5 years of experience. I specialize in creating kid-friendly animations, motion graphics, and educational videos.</p>
+    <p>I believe animation is a powerful way to bring stories to life and make learning fun. I have worked with several clients to create engaging content that entertains while educating.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Zain Aslam | All Rights Reserved</p>
+  </footer>
+
+</body>
+<script>
+  window.addEventListener("scroll", function() {
+    const nav = document.querySelector("nav");
+    if (window.scrollY > 50) {
+      nav.classList.add("scrolled");
+    } else {
+      nav.classList.remove("scrolled");
+    }
+  });
+</script>
+
+</html>
